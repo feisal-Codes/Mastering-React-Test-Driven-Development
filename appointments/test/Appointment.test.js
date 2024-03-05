@@ -126,10 +126,10 @@ describe('AppointmentsDayView', () => {
     ).toEqual('button');
   });
 
-  it.skip('renders another appointment when selected', () => {
+  it('renders another appointment when selected', () => {
     render(<AppointmentsDayView appointments={appointments} />);
-    const button = container.querySelectorAll('button')[1];
+    const button = container.querySelectorAll('button')[0];
     ReactTestUtils.Simulate.click(button);
-    expect(container.textContent).toMatch('Jordan');
+    expect(container.textContent).toMatch('Ashley');
   });
 });
