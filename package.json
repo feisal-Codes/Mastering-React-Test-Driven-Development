@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "@babel/runtime": "^7.3.4",
+    "jest-environment-jsdom": "^29.7.0",
+    "react": "^16.9.0-alpha.0",
+    "react-dom": "^16.9.0-alpha.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "jest": "^28.1.0"
+  },
+  "name": "react-tdd",
+  "description": "Published by Packt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
